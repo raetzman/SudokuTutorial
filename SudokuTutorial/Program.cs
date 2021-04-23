@@ -12,7 +12,7 @@ public class Program
 			{
 				int row = i / 12;
 				int column = i % 12;
-				//Console.WriteLine(fileContent[i]);
+				// Console.WriteLine(fileContent[i]);
 				if (fileContent[i] == '0')
 				{
 					sudoku[row, column] = "123456789";
